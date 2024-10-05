@@ -1,0 +1,1 @@
+// Agrego script para meter imagenes al footer
