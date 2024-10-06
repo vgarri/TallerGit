@@ -4,16 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form id="contactForm">
-        <input type="text" id="name" placeholder="Nombre" >
-        <input type="email" id="email" placeholder="Email" >
-        <textarea id="message" placeholder="Mensaje" ></textarea>
-        <input type="url" id="imageUrl" placeholder="URL Imagen" >
-        <button type="submit">Enviar</button>
+    <div class="container">
+        <h1>Formulario de Contacto</h1>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Nombre" >
+            <input type="email" id="email" placeholder="Email" >
+            <textarea id="message" placeholder="Mensaje" ></textarea>
+            <input type="url" id="imageUrl" placeholder="URL Imagen" >
+            <button type="submit">Enviar</button>
         </form>
-    </form>
+
+        <h2>Contactos Guardados</h2>
+        <ul id="contactList"></ul>
+        <button id="clearAll">Borrar Todos los Contactos</button>
+    </div>
     
 </body>
 </html>
